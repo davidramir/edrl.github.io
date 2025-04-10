@@ -1,0 +1,335 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(170, 236, 236);
+}
+
+header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(0, 225, 255);;
+}
+
+.logo img{
+    width: 200px;
+}
+
+.contenedormenu{
+    display: flex;
+    background-color: rgb(0, 225, 255);
+    justify-content:right;
+    border: 1px;
+    padding: 10px;  
+    gap: 80px;   
+    font-size: 20px;
+}
+
+.contenedormenu nav ul li {  
+    background-color: rgb(13, 0, 73);
+    color: aliceblue;
+    border: 3px solid white;
+    text-align: center;
+    width: 150px;
+    box-shadow: rgb(255, 255, 255) 5px 5px 5px;
+}
+
+.buscar{
+    display: flex;
+    gap: 15px;
+}
+
+nav{
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    list-style: none;
+}
+nav ul li{
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.seccion1{
+    display: flex;
+    background-color: rgb(46, 208, 248);
+    padding: 2%;
+    border: 1px solid;
+}
+
+.textoportada{
+    text-align: center;
+    font-size: 3rem;
+    color:mediumblue;
+    width: 35%;
+    margin: 6%;
+}
+
+.botones{
+    background-image: url(https://s3.us-east-1.amazonaws.com/forofms.na/monthly_2021_04/Screenshot_20210419-181341-1.jpg.2a2272c68a103fbe0828bb67e47560c0.jpg);
+    background-size:cover;
+    background-position:left;
+    width: 650px;
+    height: 350px;
+}
+
+.botones nav ul li{
+    margin: 5px;
+    margin-left: 260px;
+    font-size: 2rem;
+    color: blue;
+    background-color: rgb(250, 248, 246);
+    gap: 50px;
+    box-shadow: rgb(32, 31, 31);
+}
+
+.botones nav ul{
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.opciones{
+    display: flex;
+    background-color: rgb(251, 252, 249);
+    flex-direction: row;
+    justify-content:space-between;
+    padding-top: 1px;
+    font-size: 150%;
+    border: 1px solid;
+}
+
+.series{
+    border: 3px solid white;
+    width: 50%;
+    margin: 30px;
+    padding: 10px;
+    background-color: rgb(255, 64, 64);
+    text-align: center;
+    box-shadow: rgb(58, 54, 54) 5px 5px 5px;
+}
+
+.peliculas{
+    border: 3px solid white;
+    width: 50%;
+    margin: 30px;
+    padding: 10px;
+    background-color:  rgb(255, 64, 64);
+    text-align: center;
+    box-shadow: rgb(58, 54, 54) 5px 5px 5px;
+}
+
+.television{
+    border: 3px solid white;
+    width: 50%;
+    margin: 30px;
+    padding: 10px;
+    background-color: rgb(255, 64, 64);
+    text-align: center;
+    box-shadow: rgb(58, 54, 54) 5px 5px 5px;
+}
+
+.novelas{
+    border: 3px solid white;
+    width: 50%;
+    margin: 30px;
+    padding: 10px;
+    background-color:  rgb(255, 64, 64);
+    text-align: center;
+    box-shadow: rgb(58, 54, 54) 5px 5px 5px;
+}
+
+.deportes{
+    border: 3px solid white;
+    width: 50%;
+    margin: 30px;
+    padding: 10px;
+    background-color:  rgb(255, 64, 64);
+    text-align: center;
+    box-shadow: rgb(58, 54, 54) 5px 5px 5px;
+}
+.cuerpo{
+    background-color: rgb(46, 208, 248);
+}
+.subtitulo{
+    padding: 50px;
+    text-align: center;
+    font-style: bold;
+    font-size: 3rem;
+    color: rgb(27, 25, 194);
+    width: 1000px;
+    margin-left: 10%;
+}
+.imagencentral{
+    text-align: center;
+}
+
+.planes1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 2rem;
+    padding: 50px;
+}
+
+.btnselecciona li{
+    list-style: none;
+    background-color: rgb(4, 58, 75);
+    color: aliceblue;
+    border: 3px solid white;
+    text-align: center;
+    width: 150px;
+    box-shadow: rgb(207, 214, 223) 5px 5px 5px;
+}
+
+.planes2{
+    display: flex;
+    font-size: 3rem;
+    justify-content:space-between;
+    align-items: center;
+    text-align: justify;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+.seccategorias{
+    padding-left: 4%;
+    padding-right: 4%;
+}
+.cat{
+    font-size: 2rem;
+    color: blue;
+}
+.catdestacadas{
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    font-size: 100%;
+}
+
+.c1 {
+    border: 1px solid white;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(228, 53, 0);
+    text-align: center;
+    box-shadow: rgb(58, 54, 54) 5px 5px 5px;
+    color:white;
+}
+.c2 {
+    border: 1px solid white;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(228, 53, 0);
+    text-align: center;
+    box-shadow: rgb(58, 54, 54) 5px 5px 5px;
+    color:white;
+}
+.c3 {
+    border: 1px solid white;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(228, 53, 0);
+    text-align: center;
+    box-shadow: rgb(58, 54, 54) 5px 5px 5px;
+    color:white;
+}
+.c4 {
+    border: 1px solid white;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(228, 53, 0);
+    text-align: center;
+    box-shadow: rgb(58, 54, 54) 5px 5px 5px;
+    color:white;
+}
+.c5 {
+    border: 1px solid white;
+    margin: 5px;
+    padding: 10px;
+    background-color: rgb(228, 53, 0);
+    text-align: center;
+    box-shadow: rgb(58, 54, 54) 5px 5px 5px;
+    color:white;
+}
+.PRODUCTOS {
+    display: flex;
+}
+.producto-1 {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px;
+    box-shadow: 1px 0.8px 0.2px;
+    width: 40%;
+}
+.producto-2 {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px;
+    box-shadow: 1px 0.8px 0.2px;
+    width: 40%;
+}
+.producto-3 {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 15px;
+    box-shadow: 1px 0.8px 0.2px;
+    width: 40%;
+}
+
+.seccontactos{
+    padding: 2%;
+    border: 1px solid;
+    margin:10px;
+}
+
+.titulocontactos{
+    column-count: auto;
+    text-align: center;
+    font-size: 2rem;
+    color:mediumblue;
+    width: 100%;
+    margin: 5px;
+}
+
+.registrarcontactos{
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    display: flex;
+    padding: 5px;
+    margin-right: 40%;
+    margin-left: 40%;
+}
+
+.input{
+    margin: 5px;
+    height: 30px;
+    padding: 3px;
+    border-radius: 8px;
+}
+
+.contactos1{
+    padding: 5%;
+    display: flex;
+    size: 2rem;
+}
+.redessociales{
+    display: flex;
+    justify-content:right;
+    border: 1px;
+    gap: 20px;   
+    font-size: 5px;
+}
